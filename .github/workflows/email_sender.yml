@@ -1,7 +1,7 @@
 name: "Email sender after workflow"
 
 on :
-    workflow_dispatch:
+    workflow_dispatch:  #To Run the flow manually
 
 jobs:
     send_email:
